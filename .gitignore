@@ -81,6 +81,8 @@ artifacts/
 *.ipdb
 *.iobj
 *.zip
+*.tlog
+*.recipe
 
 # Chutzpah Test files
 _Chutzpah*
@@ -279,3 +281,5 @@ BACnetVirtualDevicesBBMDExample/Release/
 BACnetVirtualDevicesBBMDExample/x64/
 
 bin/
+
+submodules/cas-bacnet-stack/*

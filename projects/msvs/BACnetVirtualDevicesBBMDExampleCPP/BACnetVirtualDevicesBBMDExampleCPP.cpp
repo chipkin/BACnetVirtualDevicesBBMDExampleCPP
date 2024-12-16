@@ -60,7 +60,7 @@ bool GetDeviceDescription(const uint32_t deviceInstance, char* value, uint32_t* 
 int main(int argc, char** argv)
 {
 	// Print the application version information 
-	std::cout << "CAS BACnet Stack Server Example v" << APPLICATION_VERSION << "." << CIBUILDNUMBER << std::endl;
+	std::cout << "CAS BACnet Stack Virtual Devices and BBMD Example v" << APPLICATION_VERSION << "." << CIBUILDNUMBER << std::endl;
 	std::cout << "https://github.com/chipkin/BACnetVirtualDevicesBBMDExampleCPP" << std::endl << std::endl;
 
 	// Check for bbmd address from the command arguments, otherwise use a default
@@ -356,7 +356,7 @@ bool DoUserInput()
 		// Print the Help
 		std::cout << std::endl << std::endl;
 		// Print the application version information 
-		std::cout << "CAS BACnet Stack Virtual Devices Server Example v" << APPLICATION_VERSION << "." << CIBUILDNUMBER << std::endl;
+		std::cout << "CAS BACnet Stack Virtual Devices and BBMD Example v" << APPLICATION_VERSION << "." << CIBUILDNUMBER << std::endl;
 		std::cout << "https://github.com/chipkin/BACnetVirtualDevicesBBMDExampleCPP" << std::endl << std::endl;
 
 		std::cout << "Help:" << std::endl;
